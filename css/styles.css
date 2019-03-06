@@ -1,0 +1,41 @@
+/* FOR SCROLLSPY */
+body {
+    position: relative; 
+}
+
+/* CAROUSEL */
+.carousel {
+    margin-top: 7rem;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ROWS */
+#section1, #section2, #section3 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 5rem; /* Set the fixed height of the footer here */
+  line-height: 5rem; /* Vertically center the text there */
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 576px) {
+    #section1, #section2, #section3 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .middle-pic {
+        margin: 2rem 0 1rem 4rem;
+    }
+
+}
