@@ -1,6 +1,6 @@
 /* FOR SCROLLSPY */
 body {
-    position: relative; 
+    position: relative;
 }
 
 /* CAROUSEL */
@@ -15,7 +15,8 @@ body {
 
 /* ROWS */
 #section1, #section2, #section3 {
-    padding-top: 5rem;
+    margin-top: -5rem;
+    padding-top: 10rem;
     padding-bottom: 5rem;
 }
 
@@ -23,12 +24,38 @@ body {
 /* FOOTER */
 .footer {
   width: 100%;
-  height: 5rem; /* Set the fixed height of the footer here */
-  line-height: 5rem; /* Vertically center the text there */
+  height: 6rem; /* Set the fixed height of the footer here */
+  line-height: 6rem; /* Vertically center the text there */
+  margin-bottom: 0;
+}
+
+.footer-box {
+    margin-bottom: 0;
+}
+
+.footer-span {
+    line-height: 5.5rem;
+}
+
+.social-media-footer {
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1.5rem;
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+    .carousel-inner img {
+        height: 20rem;
+    }
+}
+
 @media screen and (max-width: 576px) {
+    .carousel-inner img {
+        height: 18rem;
+    }
+
     #section1, #section2, #section3 {
         padding-top: 3rem;
         padding-bottom: 3rem;
