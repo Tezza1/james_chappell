@@ -49,6 +49,15 @@ body {
     border: 1px solid #FDB813;
 }
 
+.second-middle-pic {
+    margin: 1rem;
+}
+
+.card-middle-pic {
+    margin-bottom: 3rem;
+    max-width: 60%;
+}
+
 /* HEADINGS */
 h2 {
     color: #FDB813
