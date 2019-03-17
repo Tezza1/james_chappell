@@ -3,6 +3,29 @@ body {
     position: relative;
 }
 
+/* TOP NAVBAR */
+#top-nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 3px solid #FDB813;
+}
+
+#main-logo{
+    max-height: 6rem;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #FDB813;
+}
+
+.nav-link.active {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #E7A811;
+}
+
 /* CAROUSEL */
 .carousel {
     margin-top: 7rem;
@@ -16,8 +39,29 @@ body {
 /* ROWS */
 #section1, #section2, #section3 {
     margin-top: -5rem;
-    padding-top: 10rem;
-    padding-bottom: 5rem;
+    padding-top: 9rem;
+    padding-bottom: 2rem;
+}
+
+.middle-pic {
+    margin: 3rem;
+    min-width: 60%;
+    border: 1px solid #FDB813;
+}
+
+/* HEADINGS */
+h2 {
+    color: #FDB813
+}
+
+.blob-image {
+    height: 1.6rem;
+    padding-bottom: 0.4rem;
+}
+
+.taro-image {
+    height: 3rem;
+    padding-bottom: 0.6rem;
 }
 
 
@@ -27,6 +71,8 @@ body {
   height: 6rem; /* Set the fixed height of the footer here */
   line-height: 6rem; /* Vertically center the text there */
   margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-top: 3px solid #FDB813;
 }
 
 .footer-box {
@@ -42,6 +88,14 @@ body {
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 1.5rem;
+}
+
+.social-media-footer i {
+    color: #FDB813;
+}
+
+.social-media-footer i:hover {
+    color: #E7A811;
 }
 
 /* MEDIA QUERIES */
