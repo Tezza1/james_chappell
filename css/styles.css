@@ -27,13 +27,9 @@ body {
 }
 
 /* CAROUSEL */
-.carousel {
+.jumbotron {
     margin-top: 7rem;
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
+    background-color: #FDB813 !important;
 }
 
 /* ROWS */
@@ -59,20 +55,10 @@ body {
 }
 
 /* HEADINGS */
-h2 {
-    color: #FDB813
-}
-
 .blob-image {
-    height: 1.6rem;
+    height: 2.2rem;
     padding-bottom: 0.4rem;
 }
-
-.taro-image {
-    height: 3rem;
-    padding-bottom: 0.6rem;
-}
-
 
 /* FOOTER */
 .footer {
@@ -80,12 +66,15 @@ h2 {
   height: 6rem; /* Set the fixed height of the footer here */
   line-height: 6rem; /* Vertically center the text there */
   margin-bottom: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-top: 3px solid #FDB813;
+  background-color:  #FDB813;
 }
 
 .footer-box {
     margin-bottom: 0;
+}
+
+.footer-box p {
+    color: white;
 }
 
 .footer-span {
@@ -100,7 +89,7 @@ h2 {
 }
 
 .social-media-footer i {
-    color: #FDB813;
+    color: white;
 }
 
 .social-media-footer i:hover {
