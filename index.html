@@ -13,22 +13,24 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
 
     <!-- NAV -->
     <nav class="navbar fixed-top" id="top-nav">
         <div class="col-4">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#section1">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section2">Profile</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section3">Contact</a>
-                </li>
-            </ul>
+            <!-- Toggler/collapsibe Button -->
+            <button type="button" class="btn hamburger-btn" data-toggle="dropdown">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item font-weight-bold" href="#section1">BEMiとは？</a>
+                <a class="dropdown-item font-weight-bold" href="#section2">なぜ、発言できないのか？</a>
+                <a class="dropdown-item font-weight-bold" href="#section3">アサーティブとは？</a>
+                <a class="dropdown-item font-weight-bold" href="#section4">コースの流れ</a>
+                <a class="dropdown-item font-weight-bold" href="#section5">CEO Profile</a>
+                <a class="dropdown-item font-weight-bold" href="#section6">会社概要</a>
+                <a class="dropdown-item font-weight-bold" href="#section7">Contact</a>
+            </div>
         </div>
         <div class="col-4 text-center">
             <a class="navbar-brand text-warning" href="#">
@@ -150,7 +152,7 @@
             <hr class="bg-warning"/>
 
             <!-- SECTION 6 -->
-             <div class="row" id="section6">
+             <div class="row" id="section7">
                 <div class="col-md-8 offset-md-2 col-sm-12">
                     <h2 class="font-weight-bold">
                         <span><img src="img/blob_asset.png" class="img-fluid blob-image"></span>

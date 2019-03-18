@@ -9,34 +9,41 @@ body {
     border-bottom: 3px solid rgb(253, 185, 19);
 }
 
+.hamburger-btn {
+    background-color: rgb(16, 122, 117);
+}
+
+.fa-bars {
+    color: white;
+}
+
+.dropdown-item:hover {
+    color: rgb(16, 122, 117);
+}
+
+.dropdown-menu {
+    border: 2px solid rgb(16, 122, 117);
+}
+
 .main-logo{
-    max-height: 6rem;
-}
-
-.nav-link {
-    font-weight: bold;
-    color: rgb(253, 185, 19);
-}
-
-.nav-link.active {
-    color: black;
-}
-
-.nav-link:hover {
-    color: #E7A811;
+    max-height: 5rem;
 }
 
 /* HEADING */
 .jumbotron {
-    margin-top: 7rem;
+    margin-top: 6rem;
     background-color: rgb(253, 185, 19) !important;
 }
 
 /* ROWS */
-#section1, #section2, #section3 {
+#section1, #section2, #section3, #section4, #section5, #section6, #section7 {
     margin-top: -5rem;
     padding-top: 9rem;
     padding-bottom: 2rem;
+}
+
+#section7 {
+    margin-bottom: 5rem;
 }
 
 .middle-pic {
