@@ -148,11 +148,11 @@
 @media screen and (max-width: 576px) {
 
     .main-logo{
-        max-height: 3rem;
+        max-height: 4rem;
     }
 
     .jumbotron {
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
 
     .jumbo-eng-heading {
