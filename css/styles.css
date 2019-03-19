@@ -1,8 +1,3 @@
-/* FOR SCROLLSPY */
-body {
-    position: relative;
-}
-
 /* TOP NAVBAR */
 #top-nav {
     background-color: rgba(255, 255, 255, 0.9);
@@ -10,10 +5,14 @@ body {
 }
 
 .hamburger-btn {
-    background-color: rgb(16, 122, 117);
+    background-color: rgb(253, 185, 19);
 }
 
 .fa-bars {
+    color: white;
+}
+
+.dropdown-item {
     color: white;
 }
 
@@ -22,7 +21,7 @@ body {
 }
 
 .dropdown-menu {
-    border: 2px solid rgb(16, 122, 117);
+    background-color: rgb(16, 122, 117);
 }
 
 .main-logo{
@@ -35,6 +34,10 @@ body {
     background-color: rgb(253, 185, 19) !important;
 }
 
+.jumbotron h1 {
+    color: white;
+}
+
 /* ROWS */
 #section1, #section2, #section3, #section4, #section5, #section6, #section7 {
     margin-top: -5rem;
@@ -44,6 +47,26 @@ body {
 
 #section7 {
     margin-bottom: 5rem;
+}
+
+.jpn-heading {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+@font-face {
+    font-family: 'DIN Condensed Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Condensed Bold'), url('DINCondensed-Bold.woff') format('woff');
+}
+
+.eng-heading {
+    font-family: 'DIN Condensed Bold';
+    font-size: 2.4rem;
+}
+
+.jumbo-eng-heading {
+    font-family: 'DIN Condensed Bold';
 }
 
 .middle-pic {
@@ -71,6 +94,13 @@ body {
 .contact-icon {
     font-size: 1.4rem;
     margin-right: 1rem;
+}
+
+/* MODAL */
+.btn-modal {
+   background-color: rgb(253, 185, 19);
+   color: white;
+   font-weight: bold;
 }
 
 /* FOOTER */
