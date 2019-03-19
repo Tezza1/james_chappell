@@ -70,13 +70,15 @@
 }
 
 .middle-pic {
-    margin: 3rem;
     min-width: 60%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     border: 1px solid rgb(253, 185, 19);
 }
 
 .second-middle-pic {
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .card-middle-pic {
@@ -141,23 +143,32 @@
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
-    .carousel-inner img {
-        height: 20rem;
-    }
 }
 
 @media screen and (max-width: 576px) {
-    .carousel-inner img {
-        height: 18rem;
+    .jumbo-eng-heading {
+        font-size: 1.8rem;
     }
 
-    #section1, #section2, #section3 {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+    h2.jpn-heading {
+        font-size: 1.3rem;
     }
 
-    .middle-pic {
-        margin: 2rem 0 1rem 4rem;
+    .blob-image {
+        height: 1.8rem;
+    }
+
+    span.jpn-heading {
+        font-size: 1.3rem;
+    }
+
+    table {
+        font-size: 0.5rem;
+    }
+
+    .contact-icon {
+        font-size: 1.1rem;
+        margin-right: 0.4rem;
     }
 
 }
