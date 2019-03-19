@@ -146,12 +146,33 @@
 }
 
 @media screen and (max-width: 576px) {
+
+    .main-logo{
+        max-height: 3rem;
+    }
+
+    .jumbotron {
+        margin-top: 4rem;
+    }
+
     .jumbo-eng-heading {
         font-size: 1.8rem;
     }
 
+    #section1, #section2, #section3, #section4, #section5, #section6, #section7 {
+        padding-top: 7rem;
+    }
+
+    #section7 {
+        margin-bottom: 2rem;
+    }
+
     h2.jpn-heading {
         font-size: 1.3rem;
+    }
+
+    .eng-heading {
+        font-size: 1.6rem;
     }
 
     .blob-image {
@@ -160,6 +181,10 @@
 
     span.jpn-heading {
         font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.8rem;
     }
 
     table {
