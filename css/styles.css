@@ -77,13 +77,14 @@
 }
 
 .second-middle-pic {
+    max-width: 50%;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .card-middle-pic {
     margin-bottom: 3rem;
-    max-width: 60%;
+    max-width: 100%;
 }
 
 /* HEADINGS */
@@ -143,6 +144,9 @@
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
+    .second-middle-pic {
+        max-width: 100%
+    }
 }
 
 @media screen and (max-width: 576px) {
