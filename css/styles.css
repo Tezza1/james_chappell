@@ -8,6 +8,11 @@
     background-color: rgb(253, 185, 19);
 }
 
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
 .fa-bars {
     color: white;
 }
@@ -24,13 +29,22 @@
     background-color: rgb(16, 122, 117);
 }
 
+a:focus, a:active {
+   background-color: white !important;
+}
+
 .main-logo{
     max-height: 5rem;
 }
 
+.main-logo-2{
+    max-height: 6rem;
+}
+
+
 /* HEADING */
 .jumbotron {
-    margin-top: 6rem;
+    margin-top: 8.3rem;
     background-color: rgb(253, 185, 19) !important;
 }
 
@@ -69,21 +83,20 @@
     font-family: 'DIN Condensed Bold';
 }
 
-.middle-pic {
-    min-width: 60%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border: 1px solid rgb(253, 185, 19);
-}
-
 .second-middle-pic {
     max-width: 50%;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.card-middle-pic {
-    margin-bottom: 3rem;
+.card-middle-pic_1 {
+    margin-top: 2rem;
+    max-width: 100%;
+}
+
+.card-middle-pic_2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     max-width: 100%;
 }
 
@@ -97,6 +110,13 @@
 .contact-icon {
     font-size: 1.4rem;
     margin-right: 1rem;
+}
+
+.middle-pic {
+    min-width: 66%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(253, 185, 19);
 }
 
 /* MODAL */
@@ -155,8 +175,13 @@
         max-height: 4rem;
     }
 
+    .main-logo-2{
+        max-height: 5rem;
+    }
+
+
     .jumbotron {
-        margin-top: 6rem;
+        margin-top: 7.6rem;
     }
 
     .jumbo-eng-heading {
@@ -164,7 +189,7 @@
     }
 
     #section1, #section2, #section3, #section4, #section5, #section6, #section7 {
-        padding-top: 7rem;
+        padding-top: 8rem;
     }
 
     #section7 {
@@ -188,11 +213,11 @@
     }
 
     p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     table {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     .contact-icon {
