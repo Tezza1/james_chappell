@@ -44,7 +44,7 @@ a:focus, a:active {
 
 /* HEADING */
 .jumbotron {
-    margin-top: 7.5em;
+    margin-top: 8.3rem;
     background-color: rgb(253, 185, 19) !important;
 }
 
@@ -83,21 +83,20 @@ a:focus, a:active {
     font-family: 'DIN Condensed Bold';
 }
 
-.middle-pic {
-    min-width: 60%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border: 1px solid rgb(253, 185, 19);
-}
-
 .second-middle-pic {
     max-width: 50%;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.card-middle-pic {
-    margin-bottom: 3rem;
+.card-middle-pic_1 {
+    margin-top: 2rem;
+    max-width: 100%;
+}
+
+.card-middle-pic_2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     max-width: 100%;
 }
 
@@ -111,6 +110,13 @@ a:focus, a:active {
 .contact-icon {
     font-size: 1.4rem;
     margin-right: 1rem;
+}
+
+.middle-pic {
+    min-width: 66%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(253, 185, 19);
 }
 
 /* MODAL */
@@ -175,7 +181,7 @@ a:focus, a:active {
 
 
     .jumbotron {
-        margin-top: 7rem;
+        margin-top: 7.6rem;
     }
 
     .jumbo-eng-heading {
