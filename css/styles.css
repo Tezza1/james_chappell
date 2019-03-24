@@ -113,7 +113,7 @@ a:focus, a:active {
 }
 
 .middle-pic {
-    min-width: 66%;
+    min-width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     border: 1px solid rgb(253, 185, 19);
@@ -159,7 +159,7 @@ a:focus, a:active {
 }
 
 .social-media-footer i:hover {
-    color: rgb(253, 185, 19);
+    color: rgb(16, 122, 117);
 }
 
 /* MEDIA QUERIES */
