@@ -112,6 +112,15 @@ a:focus, a:active {
     margin-right: 1rem;
 }
 
+.contact-link {
+    color: black;
+}
+
+.contact-link:hover {
+    color: black;
+}
+
+/* BIO */
 .middle-pic {
     min-width: 100%;
     margin-top: 2rem;
