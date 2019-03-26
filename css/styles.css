@@ -75,7 +75,7 @@ a:focus, a:active {
 }
 
 .eng-heading {
-    font-family: 'DIN Condensed Bold';
+    /*font-family: 'DIN Condensed Bold';*/
     font-size: 2.4rem;
 }
 
@@ -195,7 +195,6 @@ a:focus, a:active {
 
     .jumbo-eng-heading {
         font-size: 1.8rem;
-        border: 1px solid black;
     }
 
     #section1, #section2, #section3, #section4, #section5, #section6, #section7 {
