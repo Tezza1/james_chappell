@@ -195,8 +195,7 @@ a:focus, a:active {
 
     .jumbo-eng-heading {
         font-size: 1.8rem;
-        padding-top: 0.3rem;
-        border: 1px solid black;
+        padding-top: 0.3rem; /* Temp workaround for v-align issue */
     }
 
     #section1, #section2, #section3, #section4, #section5, #section6, #section7 {
