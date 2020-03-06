@@ -1,138 +1,149 @@
 /* TOP NAVBAR */
 #top-nav {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-bottom: 3px solid rgb(253, 185, 19);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 3px solid rgb(253, 185, 19);
 }
 
 .hamburger-btn {
-    background-color: rgb(253, 185, 19);
+  background-color: rgb(253, 185, 19);
 }
 
-.btn:focus,.btn:active {
-   outline: none !important;
-   box-shadow: none;
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
 }
 
 .fa-bars {
-    color: white;
+  color: white;
 }
 
 .dropdown-item {
-    color: white;
+  color: white;
 }
 
 .dropdown-item:hover {
-    color: rgb(16, 122, 117);
+  color: rgb(16, 122, 117);
 }
 
 .dropdown-menu {
-    background-color: rgb(16, 122, 117);
+  background-color: rgb(16, 122, 117);
 }
 
-a:focus, a:active {
-   background-color: white !important;
+a:focus,
+a:active {
+  background-color: white !important;
 }
 
-.main-logo{
-    max-height: 5rem;
+.main-logo {
+  max-height: 5rem;
 }
 
-.main-logo-2{
-    max-height: 6rem;
+.main-logo-2 {
+  max-height: 6rem;
 }
-
 
 /* HEADING */
 .jumbotron {
-    margin-top: 8.3rem;
-    background-color: rgb(253, 185, 19) !important;
+  margin-top: 8.3rem;
+  background-color: rgb(253, 185, 19) !important;
 }
 
 .jumbotron h1 {
-    color: white;
+  color: white;
+}
+
+.jumbotron .standout {
+  text-shadow: 3px 3px orange;
 }
 
 /* ROWS */
-#section1, #section2, #section3, #section4, #section5, #section6, #section7 {
-    margin-top: -5rem;
-    padding-top: 9rem;
-    padding-bottom: 2rem;
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6,
+#section7 {
+  margin-top: -5rem;
+  padding-top: 9rem;
+  padding-bottom: 2rem;
 }
 
 #section7 {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .jpn-heading {
-    font-family: 'M PLUS 1p', sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
 }
 
 @font-face {
-    font-family: 'DIN Condensed Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('DIN Condensed Bold'), url('DINCondensed-Bold.woff') format('woff');
+  font-family: 'DIN Condensed Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('DIN Condensed Bold'), url('DINCondensed-Bold.woff') format('woff');
 }
 
 .eng-heading {
-    font-family: 'DIN Condensed Bold';
-    font-size: 2.4rem;
+  font-family: 'DIN Condensed Bold';
+  font-size: 2.4rem;
 }
 
 .jumbo-jpn-heading {
-    font-family: 'M PLUS 1p', sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
 }
 
 .second-middle-pic {
-    max-width: 50%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  max-width: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .card-middle-pic_1 {
-    margin-top: 2rem;
-    max-width: 100%;
+  margin-top: 2rem;
+  max-width: 100%;
 }
 
 .card-middle-pic_2 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    max-width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 100%;
 }
 
 /* HEADINGS */
 .blob-image {
-    height: 2.2rem;
-    padding-bottom: 0.4rem;
+  height: 2.2rem;
+  padding-bottom: 0.4rem;
 }
 
 /* CONTACT */
 .contact-icon {
-    font-size: 1.4rem;
-    margin-right: 1rem;
+  font-size: 1.4rem;
+  margin-right: 1rem;
 }
 
 .contact-link {
-    color: black;
+  color: black;
 }
 
 .contact-link:hover {
-    color: black;
+  color: black;
 }
 
 /* BIO */
 .middle-pic {
-    min-width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border: 1px solid rgb(253, 185, 19);
+  min-width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgb(253, 185, 19);
 }
 
 /* MODAL */
 .btn-modal {
-   background-color: rgb(253, 185, 19);
-   color: white;
-   font-weight: bold;
+  background-color: rgb(253, 185, 19);
+  color: white;
+  font-weight: bold;
 }
 
 /* FOOTER */
@@ -145,94 +156,97 @@ a:focus, a:active {
 }
 
 .footer-box {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .footer-box p {
-    color: white;
+  color: white;
 }
 
 .footer-span {
-    line-height: 5.5rem;
+  line-height: 5.5rem;
 }
 
 .social-media-footer {
-    margin-right: 0.5rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    font-size: 1.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 1.5rem;
 }
 
 .social-media-footer i {
-    color: white;
+  color: white;
 }
 
 .social-media-footer i:hover {
-    color: rgb(16, 122, 117);
+  color: rgb(16, 122, 117);
 }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
-    .second-middle-pic {
-        max-width: 100%
-    }
+  .second-middle-pic {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .main-logo {
+    max-height: 4rem;
+  }
 
-    .main-logo{
-        max-height: 4rem;
-    }
+  .main-logo-2 {
+    max-height: 5rem;
+  }
 
-    .main-logo-2{
-        max-height: 5rem;
-    }
+  .jumbotron {
+    margin-top: 7.6rem;
+  }
 
+  .jumbo-jpn-heading {
+    font-size: 1.6rem;
+    padding-top: 0.5rem; /* Temp workaround for v-align issue */
+  }
 
-    .jumbotron {
-        margin-top: 7.6rem;
-    }
+  #section1,
+  #section2,
+  #section3,
+  #section4,
+  #section5,
+  #section6,
+  #section7 {
+    padding-top: 8rem;
+  }
 
-    .jumbo-jpn-heading {
-        font-size: 1.6rem;
-        padding-top: 0.5rem; /* Temp workaround for v-align issue */
-    }
+  #section7 {
+    margin-bottom: 2rem;
+  }
 
-    #section1, #section2, #section3, #section4, #section5, #section6, #section7 {
-        padding-top: 8rem;
-    }
+  h2.jpn-heading {
+    font-size: 1.3rem;
+  }
 
-    #section7 {
-        margin-bottom: 2rem;
-    }
+  .eng-heading {
+    font-size: 1.6rem;
+  }
 
-    h2.jpn-heading {
-        font-size: 1.3rem;
-    }
+  .blob-image {
+    height: 1.8rem;
+  }
 
-    .eng-heading {
-        font-size: 1.6rem;
-    }
+  span.jpn-heading {
+    font-size: 1.3rem;
+  }
 
-    .blob-image {
-        height: 1.8rem;
-    }
+  p {
+    font-size: 0.9rem;
+  }
 
-    span.jpn-heading {
-        font-size: 1.3rem;
-    }
+  table {
+    font-size: 0.7rem;
+  }
 
-    p {
-        font-size: 0.9rem;
-    }
-
-    table {
-        font-size: 0.7rem;
-    }
-
-    .contact-icon {
-        font-size: 1.1rem;
-        margin-right: 0.4rem;
-    }
-
+  .contact-icon {
+    font-size: 1.1rem;
+    margin-right: 0.4rem;
+  }
 }
